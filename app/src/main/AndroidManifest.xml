@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.medved.mymenuapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_menu"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_menu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TopLevelActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".lists.FoodListActivity">
+        </activity>
+        <activity android:name=".lists.BeerListActivity">
+        </activity>
+        <activity android:name=".lists.CoffeeListActivity">
+        </activity>
+        <activity android:name=".lists.DessertListActivity">
+        </activity>
+        <activity android:name=".OrderActivity">
+        </activity>
+    </application>
+
+</manifest>

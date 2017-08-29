@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".TopLevelActivity">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:orderInCategory="1"
+        android:title="home"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_order"
+        android:icon="@drawable/ic_order_black_24dp"
+        android:orderInCategory="2"
+        android:title="order"
+        android:showAsAction="always"/>
+
+    <item
+    android:id="@+id/action_food"
+    android:showAsAction="never"
+    android:title="Food"/>
+    <item
+        android:id="@+id/action_beer"
+        android:showAsAction="never"
+        android:title="Beer"/>
+    <item
+        android:id="@+id/action_coffee"
+        android:showAsAction="never"
+        android:title="Coffee"/>
+    <item
+        android:id="@+id/action_dessert"
+        android:showAsAction="never"
+        android:title="Desserts"/>
+
+</menu>

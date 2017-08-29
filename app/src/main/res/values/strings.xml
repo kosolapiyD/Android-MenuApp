@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="bill_total">Bill Total :</string>
+    <string name="confirm">Confirm</string>
+    <string name="coffee_shop_name">Coffee Shop</string>
+    <string name="food">Food</string>
+    <string name="beers">Beers</string>
+    <string name="coffee">Coffee</string>
+    <string name="desserts">Desserts</string>
+    <string name="order_confirmation">Order Confirmation</string>
+    <string name="table_number">Table number</string>
+    <string name="dialog_back">Back</string>
+    <string name="dialog_send">Send</string>
+    <string name="remove">remove</string>
+    <string name="beer_list_title">Our SPECIAL BEERS</string>
+    <string name="coffee_list_title">Our COFFEE</string>
+    <string name="desserts_list_title">Desserts Menu</string>
+    <string name="food_list_title">Our FOOD</string>
+    <string name="order_activity_title">Order Summary</string>
+
+    <string-array name="table">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+</resources>
